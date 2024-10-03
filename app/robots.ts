@@ -5,10 +5,6 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: '*',
-        allow: '/',
-      },
-      {
-        userAgent: '*',
         allow: ['/', '/linktree'],
       },
     ],
